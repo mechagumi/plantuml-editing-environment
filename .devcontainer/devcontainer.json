@@ -1,0 +1,10 @@
+{
+    "image": "plantuml/plantuml-server:jetty",
+    "forwardPorts": [8080],
+    "extensions": [ "jebbs.plantuml" ],
+    "overrideCommand": false,
+    "settings": {
+      "plantuml.render": "PlantUMLServer",
+      "plantuml.server": "http://localhost:8080"
+    }
+  }
